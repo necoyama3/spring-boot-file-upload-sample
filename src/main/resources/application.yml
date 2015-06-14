@@ -1,0 +1,10 @@
+server:
+    port: 8080
+    ssl:
+        key-store: "server.jks"
+        key-store-password: "tomcat"
+        key-password: "tomcat"
+
+multipart:
+    maxFileSize: 104857KB
+    maxRequestSize: 104857KB
